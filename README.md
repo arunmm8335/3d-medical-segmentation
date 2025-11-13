@@ -8,7 +8,6 @@ The final decoder features are combined using a Cross-Decoder Attention mechanis
 
 The model uses a shared 3D U-Net encoder to extract features from the input CT scan. These features are passed to three parallel decoders, one for each organ. The outputs of the decoders are then fed into a cross-attention module before the final segmentation masks are generated.
 
-*(To make this image appear, you must add the `model_architecture.png` file to your repository!)*
 ![Model Architecture Diagram](model_architecture.png)
 
 ---
@@ -93,7 +92,6 @@ The "all-or-nothing" behavior seen in the evaluation graphs is due to the model 
 
 ### Training Performance
 
-*(To make these images appear, you must add the final graphs from your `analysis/` folder to the repository!)*
 
 | Loss Curves | Dice Scores |
 | :---: | :---: |
