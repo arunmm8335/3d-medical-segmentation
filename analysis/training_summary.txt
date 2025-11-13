@@ -1,0 +1,37 @@
+================================================================================
+TRAINING SUMMARY REPORT
+================================================================================
+
+Best Epoch: 7
+Best Validation Dice: 0.8803
+
+Final Epoch Metrics:
+----------------------------------------
+  Train Loss: 0.4992
+  Val Loss: 0.4995
+
+  Validation Dice Scores:
+    Prostate: 0.7949
+    Bladder: 0.8974
+    Rectum: 0.9487
+    Mean: 0.8803
+
+  Hausdorff Distances (mm):
+    Prostate: 204.92
+    Bladder: 102.46
+    Rectum: 51.23
+    Mean: 119.54
+
+Best Validation Metrics:
+----------------------------------------
+  Prostate:
+    Best Dice: 0.7949
+    Best HD: 204.92 mm
+  Bladder:
+    Best Dice: 0.8974
+    Best HD: 102.46 mm
+  Rectum:
+    Best Dice: 0.9487
+    Best HD: 51.23 mm
+
+================================================================================

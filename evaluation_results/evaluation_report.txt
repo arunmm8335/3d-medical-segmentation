@@ -1,0 +1,94 @@
+================================================================================
+MODEL EVALUATION REPORT
+================================================================================
+
+Number of test cases: 39
+Device: cuda
+
+DICE SCORES
+--------------------------------------------------------------------------------
+Prostate:
+  Mean: 0.7949 ± 0.4038
+  Median: 1.0000
+  Range: [0.0000, 1.0000]
+
+Bladder:
+  Mean: 0.8974 ± 0.3034
+  Median: 1.0000
+  Range: [0.0000, 1.0000]
+
+Rectum:
+  Mean: 0.9487 ± 0.2206
+  Median: 1.0000
+  Range: [0.0000, 1.0000]
+
+Mean (all organs):
+  Mean: 0.8803 ± 0.2199
+  Median: 1.0000
+
+IOU SCORES
+--------------------------------------------------------------------------------
+Prostate:
+  Mean: 0.7949 ± 0.4038
+  Median: 1.0000
+
+Bladder:
+  Mean: 0.8974 ± 0.3034
+  Median: 1.0000
+
+Rectum:
+  Mean: 0.9487 ± 0.2206
+  Median: 1.0000
+
+HAUSDORFF DISTANCES (mm)
+--------------------------------------------------------------------------------
+Prostate:
+  Mean: 204.92 ± 403.39
+  Median: 0.00
+  Range: [0.00, 999.00]
+
+Bladder:
+  Mean: 102.46 ± 303.09
+  Median: 0.00
+  Range: [0.00, 999.00]
+
+Rectum:
+  Mean: 51.23 ± 220.35
+  Median: 0.00
+  Range: [0.00, 999.00]
+
+HAUSDORFF 95 DISTANCES (mm)
+--------------------------------------------------------------------------------
+Prostate:
+  Mean: 204.92 ± 403.39
+  Median: 0.00
+
+Bladder:
+  Mean: 102.46 ± 303.09
+  Median: 0.00
+
+Rectum:
+  Mean: 51.23 ± 220.35
+  Median: 0.00
+
+SENSITIVITY, SPECIFICITY, PRECISION
+--------------------------------------------------------------------------------
+Prostate:
+  Sensitivity: 0.7949
+  Specificity: 1.0000
+  Precision: 1.0000
+  F1 Score: 0.7949
+
+Bladder:
+  Sensitivity: 0.8974
+  Specificity: 1.0000
+  Precision: 1.0000
+  F1 Score: 0.8974
+
+Rectum:
+  Sensitivity: 0.9487
+  Specificity: 1.0000
+  Precision: 1.0000
+  F1 Score: 0.9487
+
+================================================================================

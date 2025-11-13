@@ -1,0 +1,9 @@
+# Ignore the virtual environment
+venv/
+
+# Ignore all processed data
+processed_data/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
